@@ -2,24 +2,22 @@
 <html lang="en">
 <head>
         <meta charset="UTF-8">
-        <meta name="viewport"
-              content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <meta charset="UTF-8">
         <link rel="stylesheet" href="main.css">
         <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,500,600,700" rel="stylesheet">
 
         <title>HTML & CSS practice: Google-style Popup</title>
 </head>
 <body>
-    <!--Меню-->
-    <div class="nav-wrapper">
+    <!--Menu-->
+    <header class="nav-wrapper">
         <div class="navigation">
-            <div class="nav-item text"><a href="#">Gmail</a></div>
-            <div class="nav-item text"><a href="#">Images</a></div>
+            <nav class="nav-item text"><a href="#">Gmail</a></nav>
+            <nav class="nav-item text"><a href="#">Images</a></nav>
             <!--Popup-->
-            <div class="nav-item nav-item-icon grid"><a href="#" class="grid-link"><img src="img/grid.svg" alt="grid menu icon"></a>
-                <input class="grid-top" type="checkbox" id="applications" name="" value="">
+            <nav class="nav-item nav-item-icon grid"><a href="#" class="grid-link"><img src="img/grid.svg" alt="grid menu icon"></a>
+                <input class="grid-top" type="checkbox" id="applications" name="grid">
                 <label for="applications"></label>
                 <div class="popup-wrapper">
                     
@@ -80,7 +78,7 @@
                                     </a>
                             </li>
                         </ul>
-                        <input class="popup-input" type="checkbox" id="show-hidden-apps" name="more_apps" value="">
+                        <input class="popup-input" type="checkbox" id="show-hidden-apps" name="more_apps">
                         <label class="popup-button" for="show-hidden-apps">More</label>
                         <div class="division-line"></div>
                         <ul class="app-list hidden-apps">
@@ -109,19 +107,19 @@
                 </div>
             
             
-            </div>
+            </nav>
             <!--Popup-->
-            <div class="nav-item nav-item-icon bell"><a href="#"><img src="img/bell.svg" alt="bell notification icon"></a></div>
-            <div class="nav-item nav-item-icon avatar"><a href="#"></a></div>
+            <nav class="nav-item nav-item-icon bell"><a href="#"><img src="img/bell.svg" alt="bell notification icon"></a></nav>
+            <nav class="nav-item nav-item-icon avatar"><a href="#"></a></nav>
         </div>
-    </div>
+    </header>
 
    
     
     
-    <!--Меню-->
+    <!--Menu-->
 
-    <!--Поиск-->
+    <!--Search-->
     <div class="search">
         <div class="search-wrapper">
             <div class="search-image">
@@ -130,14 +128,18 @@
 
             <div class="search-field">
                 <input placeholder="Search or type URL" type="text" class="search-field-string"> 
-                <span class="keyboard"><img src="img/keyboard.svg"></span>
-                <span class="microphone"><img src="img/microphone.svg"></span>
+                <span class="keyboard"><img src="img/keyboard.svg" alt="keyboard_pictogram"></span>
+                <span class="microphone"><img src="img/microphone.svg" alt="microphone pictogram"></span>
             </div>
 
         </div>
 
     </div>
- 
+    <!--Search-->
 
 </body>
 </html>
+
+
+
+
