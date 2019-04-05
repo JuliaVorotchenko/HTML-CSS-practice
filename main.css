@@ -93,6 +93,7 @@ li {
     justify-content: space-around;
 }
 
+
 .app-list-item {
     width: 90px;
     height: 90px;
@@ -108,53 +109,51 @@ li {
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: 'Work Sans', sans-serif;
-    color: #4a5b56;
     text-decoration: none;
     font-size: 400;
 }
 
-.app-list-item:first-child .app-icon {
+.mail-icon .app-icon {
     background: url(img/gmail.svg);
-    background-size: cover;
+    background-size: contains;
 }
 
-.app-list-item:nth-child(2) .app-icon {
+.youtube-icon .app-icon {
     background: url(img/youtube.svg);
     background-size: contain;
 }
 
-.app-list-item:nth-child(3) .app-icon {
+.messenger-icon .app-icon {
     background: url(img/hangouts.svg);
     background-size: contain;
 }
 
-.app-list-item:nth-child(4) .app-icon {
+.photos-icon .app-icon {
     background: url(img/photos.svg);
     background-size: contain;
 }
 
-.app-list-item:nth-child(5) .app-icon {
+.calendar-icon .app-icon {
     background: url(img/calendar.svg);
     background-size: contain;
 }
 
-.app-list-item:nth-child(6) .app-icon {
+.translator-icon .app-icon {
     background: url(img/translate.svg);
     background-size: contain;
 }
 
-.app-list-item:nth-child(7) .app-icon{
+.weather-icon .app-icon{
     background: url(img/weather.svg);
     background-size: contain;
 }
 
-.app-list-item:nth-child(8) .app-icon {
+.notes-icon .app-icon {
     background: url(img/note.svg);
     background-size: contain;
 }
 
-.app-list-item:last-child .app-icon{
+.account-icon .app-icon{
     background: url(img/account.svg);
     background-size: contain;
 }
@@ -171,17 +170,17 @@ li {
     display: block;
 }
 
-.app-hidden-list-item:first-child .app-icon {
+.contacts-icon .app-icon {
     background: url(img/phone-book.svg);
     background-size: contain;
 }
 
-.app-hidden-list-item:nth-child(2) .app-icon {
+.maps-icon .app-icon {
     background: url(img/maps-and-location.svg);
     background-size: contain;
 }
 
-.app-hidden-list-item:last-child .app-icon {
+.drive-icon .app-icon {
     background: url(img/drive.svg);
     background-size: contain;
 }
@@ -219,7 +218,7 @@ li {
 
 .popup-wrapper:after {
   border-color: transparent;
-  border-bottom: solid #fff;
+  border-bottom: solid #edf9f6;
   border-style: dashed dashed solid;
   border-width: 0 8.5px 8.5px;
   right: 134px;
@@ -363,6 +362,11 @@ li {
     top: 93%;
     right: 8px;
 }
+
+
+
+
+
 
 
   
