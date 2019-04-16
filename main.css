@@ -30,7 +30,7 @@ li {
 
 .nav-item {
     padding-right: 25px;
-    transition: all 0.3s ease-in-out;
+    
 }
 
 .text {
@@ -60,13 +60,25 @@ li {
 .avatar {
     padding-right: 10px;
     display: block;
-    height: 45px;
+    height: 50px;
     width: 45px;
     border-radius: 50%;
-    background: url(img/girl.svg);
+    background-image: url(img/girl.svg);
     background-size: cover;
+    border: 0.5px solid transparent;
+    background-repeat: no-repeat;
+   
 
 }
+.grid:hover
+.bell:hover {
+    cursor: pointer;
+}
+.avatar:hover{
+    border: 0.5px solid rgb(173, 209, 197);
+    cursor: pointer;
+}
+
 
 .popup-wrapper {
     display: none;
