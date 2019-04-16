@@ -73,10 +73,12 @@ li {
 .grid:hover
 .bell:hover {
     cursor: pointer;
+    
 }
 .avatar:hover{
     border: 0.5px solid rgb(173, 209, 197);
     cursor: pointer;
+    transition-duration: 0.5s;
 }
 
 
@@ -276,7 +278,9 @@ li {
     transform: scale(3,3);
     opacity: 0;
 }
-
+.grid-top:hover {
+    cursor: pointer;
+}
 
 .grid-top:focus ~ .app-icon {
     outline: 2px solid #66bdf0;
