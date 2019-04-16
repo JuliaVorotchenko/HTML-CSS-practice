@@ -49,6 +49,7 @@ li {
 .grid {
     width: 28px;
     height: 28px;
+    position: relative;
 }
 
 .bell {
@@ -64,6 +65,7 @@ li {
     border-radius: 50%;
     background: url(img/girl.svg);
     background-size: cover;
+
 }
 
 .popup-wrapper {
@@ -76,6 +78,7 @@ li {
     box-shadow: 0 2px 10px #dae5e2;
     z-index: 50;
     right: 30px;
+    left: -164px;
 }
 
 .app-container {
@@ -100,6 +103,15 @@ li {
     padding: 2px;
     display: flex;
     justify-content: center;
+    border: 0.5px solid transparent;
+}
+.app-hidden-list-item {
+    width: 90px;
+    height: 90px;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    border: 0.5px solid transparent;
 }
 
 .app-link {
@@ -245,12 +257,14 @@ li {
 }
 
 .grid-top {
+    position: absolute;
     appearance: none;
-    position: relative;
-    opacity: 0;
-    bottom: 36.8px;
     left: 4.8px;
+    top: 5px;
+    transform: scale(3,3);
+    opacity: 0;
 }
+
 
 .grid-top:focus ~ .app-icon {
     outline: 2px solid #66bdf0;
