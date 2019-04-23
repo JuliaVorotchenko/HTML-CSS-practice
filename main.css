@@ -281,18 +281,7 @@ li {
 .grid-top:hover {
     cursor: pointer;
 }
-
-.grid-top:focus ~ .app-icon {
-    outline: 2px solid #66bdf0;
-}
-
-.grid-top:active ~ .applications {
-    border: 1px solid #b2b2b2;
-
-}
-.grid-top:checked ~ .popup-wrapper,
-.grid-link:active ~ .popup-wrapper,
-.grid-link:focus ~ .popup-wrapper {
+#applications:checked ~ .popup-wrapper{
     display: flex;
 }
 
@@ -302,12 +291,6 @@ li {
     position: absolute;
     opacity: 0;
 }
-
-.popup-input:focus ~ .popup-button,
-.popup-input:active ~ .popup-button {
-    border: 1px solid #e5e5e5;
-}
-
 .hidden-apps {
     display: none;
   }
@@ -316,13 +299,24 @@ li {
     justify-content: center;
     padding-bottom: 15px;
 }
-
-.popup-input:focus ~ .hidden-apps,
-.popup-input:active ~ .hidden-apps,
-.popup-input:focus ~ .even-more,
-.popup-input:active ~ .even-more {
-      display: flex;
+.division-line {
+    display: none;
 }
+.popup-input:checked + .popup-button {
+   display: none;
+}
+.popup-input:checked ~ .division-line {
+    display: flex;
+    width: 90%;
+}
+.popup-input:checked ~ .hidden-apps {
+    display: flex;
+}
+.popup-input:checked ~ .even-more {
+    display: flex;
+}
+
+
 
 .search {
     display: flex;
@@ -392,8 +386,6 @@ li {
     top: 93%;
     right: 8px;
 }
-
-
 
 
 
