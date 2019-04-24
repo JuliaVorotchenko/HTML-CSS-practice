@@ -55,6 +55,9 @@ li {
 .bell {
     width: 28px;
     height: 28px;
+    padding-right: 17px;
+    padding-left: 8px;
+    transform: scale(1.23)
 }
 
 .avatar {
@@ -112,12 +115,15 @@ li {
 
 
 .app-list-item {
-    width: 90px;
-    height: 90px;
-    padding: 2px;
-    display: flex;
-    justify-content: center;
-    border: 0.5px solid transparent;
+    
+        width: 90px;
+        height: 90px;
+        padding: 2px;
+        display: flex;
+        justify-content: center;
+        border: 0.5px solid transparent;
+        
+    
 }
 .app-hidden-list-item {
     width: 90px;
@@ -126,7 +132,9 @@ li {
     display: flex;
     justify-content: center;
     border: 0.5px solid transparent;
+    margin-top: 8px;
 }
+ 
 
 .app-link {
     width: 100%;
@@ -140,75 +148,79 @@ li {
 }
 
 .mail-icon .app-icon {
-    background: url(img/gmail.svg);
-    background-size: contains;
+    background: url(sprites.png) -10px -934px no-repeat;
+    
+    
 }
 
 .youtube-icon .app-icon {
-    background: url(img/youtube.svg);
-    background-size: contain;
+    background: url(sprites.png) -10px -262px no-repeat;
+
+    
 }
 
 .messenger-icon .app-icon {
-    background: url(img/hangouts.svg);
-    background-size: contain;
+    background: url(sprites.png) -10px -178px no-repeat;
+    
 }
 
 .photos-icon .app-icon {
-    background: url(img/photos.svg);
-    background-size: contain;
+    background: url(sprites.png) -10px -346px no-repeat;
+    
 }
 
 .calendar-icon .app-icon {
-    background: url(img/calendar.svg);
-    background-size: contain;
+    background: url(sprites.png) -10px -430px no-repeat;
+   
 }
 
 .translator-icon .app-icon {
-    background: url(img/translate.svg);
-    background-size: contain;
+    background: url(sprites.png)  -10px -766px no-repeat;
+    
 }
 
 .weather-icon .app-icon{
-    background: url(img/weather.svg);
-    background-size: contain;
+    background: url(sprites.png) -10px -94px no-repeat;
+    
 }
 
 .notes-icon .app-icon {
-    background: url(img/note.svg);
-    background-size: contain;
+    background: url(sprites.png) -10px -682px no-repeat;
+    
 }
 
 .account-icon .app-icon{
-    background: url(img/account.svg);
-    background-size: contain;
+    background: url(sprites.png) -10px -598px no-repeat;
+    
 }
 
 .app-icon {
-    height: 55px;
-    width: 55px;
-    display: block;
+    height: 68px;
+    width: 68px;
+    display: inline-block;
 }
 
 .app-link-name {
     font-size: 16px;
     font-family: 'Work Sans', sans-serif;
     display: block;
+    line-height: 10px;
+    margin-top: 8px;
 }
 
 .contacts-icon .app-icon {
-    background: url(img/phone-book.svg);
-    background-size: contain;
+    background: url(sprites.png) -10px -10px no-repeat;
+    
 }
 
 .maps-icon .app-icon {
-    background: url(img/maps-and-location.svg);
-    background-size: contain;
+    background: url(sprites.png) -10px -850px no-repeat;
+    
 }
 
 .drive-icon .app-icon {
-    background: url(img/drive.svg);
-    background-size: contain;
+    background: url(sprites.png) -10px -514px no-repeat;
+    
 }
 
 .popup-button {   
