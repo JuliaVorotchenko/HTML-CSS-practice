@@ -73,7 +73,7 @@ li {
    
 
 }
-.grid:hover
+
 .bell:hover {
     cursor: pointer;
     
@@ -334,8 +334,7 @@ li {
     display: flex;
     justify-content: center;
 }
-
-  .search-wrapper {
+.search-wrapper {
     width: 600px;
     display: flex;
     flex-direction: column;
@@ -344,12 +343,9 @@ li {
     margin-left: auto;
     margin-right: auto;
 }
-  
-
-.search-cat-img {
+  .search-cat-img {
     width: 260px;
 }
-
 .search-field {
     display: block;
     position: relative;
